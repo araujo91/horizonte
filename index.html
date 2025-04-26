@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movimento Horizonte - Confiança para Crescer</title>
+  <style>
+    :root {
+      --azul-escuro: #003366;
+      --verde-salvia: #669999;
+      --azul-medio: #004080;
+      --hover-azul: #0066cc;
+      --fundo-claro: #f9f9f9;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--fundo-claro);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: var(--azul-escuro);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+    header img {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      height: 40px;
+    }
+    nav {
+      background-color: var(--azul-medio);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background-color: var(--hover-azul);
+    }
+    .hero {
+      background: linear-gradient(to right, var(--azul-escuro), var(--verde-salvia));
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background-color: var(--azul-escuro);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+    button {
+      background-color: var(--azul-medio);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      display: block;
+      margin: 20px auto;
+    }
+    button:hover {
+      background-color: var(--hover-azul);
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    @media (min-width: 768px) {
+      .hero {
+        padding: 100px 20px;
+      }
+      nav {
+        gap: 20px;
+      }
+      nav a {
+        padding: 10px 15px;
+        font-size: 18px;
+      }
+      section {
+        padding: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg" alt="Bandeira de Portugal">
+  <h1>Movimento Horizonte</h1>
+  <p>Confiança para Crescer</p>
+</header>
+
+<nav>
+  <a href="#inicio">Início</a>
+  <a href="#manifesto">Manifesto</a>
+  <a href="#programa">Programa</a>
+  <a href="#lideranca">Liderança</a>
+  <a href="#aderir">Juntar-se</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<div class="hero" id="inicio">
+  <h2>Portugal merece mais.</h2>
+  <p>Competência, Justiça, Segurança.</p>
+</div>
+
+<section id="manifesto">
+  <h2>Manifesto</h2>
+  <p>O Movimento Horizonte nasce para quem acredita que Portugal merece mais.  
+  Chegou o tempo de construir um futuro baseado na competência, na justiça social e na segurança de todos.  
+  Somos independentes, somos reformistas e acima de tudo, somos realistas.  
+  Acreditamos no trabalho, na inovação e no mérito.  
+  Portugal não precisa de extremos, precisa de soluções.  
+  Junta-te a nós para colocar o país no caminho certo.</p>
+</section>
+
+<section id="programa">
+  <h2>Programa</h2>
+
+  <h3>Habitação</h3>
+  <ul>
+    <li>Plano nacional de construção pública para jovens e famílias.</li>
+    <li>Incentivos fiscais à reabilitação de zonas urbanas.</li>
+  </ul>
+
+  <h3>Salários e Emprego</h3>
+  <ul>
+    <li>Redução da carga fiscal para quem ganha até 2.000€/mês.</li>
+    <li>Apoio a tecnologia, startups e formação técnica.</li>
+  </ul>
+
+  <h3>Saúde</h3>
+  <ul>
+    <li>Hospitais públicos com gestão profissional e meritocrática.</li>
+    <li>Parcerias público-privadas para reduzir listas de espera.</li>
+  </ul>
+
+  <h3>Combate à Corrupção</h3>
+  <ul>
+    <li>Criação de Tribunal Anti-Corrupção com processos rápidos.</li>
+    <li>Prisão efectiva para crimes de corrupção superiores a 50.000€.</li>
+  </ul>
+
+  <h3>Educação</h3>
+  <ul>
+    <li>Ensino focado em competências práticas: finanças, programação e pensamento crítico.</li>
+    <li>Premiação de universidades com alta empregabilidade.</li>
+  </ul>
+
+  <h3>Segurança e Imigração</h3>
+  <ul>
+    <li>Imigração controlada e integração responsável.</li>
+    <li>Mais polícias, melhor formação e presença nas comunidades.</li>
+  </ul>
+
+  <h3>Ambiente</h3>
+  <ul>
+    <li>Transição energética sustentável e realista.</li>
+    <li>Incentivos locais a energias renováveis e reforestação.</li>
+  </ul>
+
+</section>
+
+<section id="lideranca">
+  <h2>Liderança</h2>
+  <p><strong>Miguel Duarte</strong> - 37 anos, engenheiro informático e empreendedor de sucesso.  
+  Cresceu numa família de classe média, estudou em escolas públicas e trabalhou em Portugal e no estrangeiro.</p>
+  <p>Defende uma política de proximidade, competência e pragmatismo, sem politiquices nem promessas vazias.</p>
+</section>
+
+<section id="aderir">
+  <h2>Junta-te a Nós</h2>
+  <p>Queres fazer parte da construção de um novo futuro para Portugal? Inscreve-te como membro ou voluntário!</p>
+  <button>Inscrever-me</button>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <p>Email: info@movimentohorizonte.pt</p>
+  <p>Telefone: +351 912 345 678</p>
+  <p>Morada: Rua da Liberdade, 100, Lisboa</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Movimento Horizonte. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
